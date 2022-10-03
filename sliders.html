@@ -1,0 +1,189 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+
+    <!-- #region Jssor Slider Begin -->
+    <!-- Generator: Jssor Slider Maker -->
+    <!-- Source: https://www.jssor.com -->
+    <script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
+    <script src="js/jssor.slider-27.5.0.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+
+            var jssor_1_options = {
+              $AutoPlay: 1,
+              $Idle: 0,
+              $SlideDuration: 5000,
+              $SlideEasing: $Jease$.$Linear,
+              $PauseOnHover: 4,
+              $SlideWidth: 140,
+              $Align: 0
+            };
+
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+            /*#region responsive code begin*/
+
+            var MAX_WIDTH = 10000;
+
+            function ScaleSlider() {
+                var containerElement = jssor_1_slider.$Elmt.parentNode;
+                var containerWidth = containerElement.clientWidth;
+
+                if (containerWidth) {
+
+                    var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+
+                    jssor_1_slider.$ScaleWidth(expectedWidth);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+
+            ScaleSlider();
+
+            $(window).bind("load", ScaleSlider);
+            $(window).bind("resize", ScaleSlider);
+            $(window).bind("orientationchange", ScaleSlider);
+            /*#endregion responsive code end*/
+        });
+    </script>
+    <style>
+        /*jssor slider loading skin spin css*/
+        .jssorl-009-spin img {
+            animation-name: jssorl-009-spin;
+            animation-duration: 1.6s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        @keyframes jssorl-009-spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+    </style>
+    <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:980px;height:100px;overflow:hidden;visibility:hidden;">
+        <!-- Loading Screen -->
+        <div data-u="loading" class="jssorl-009-spin"
+             style="position:absolute;
+             top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+            <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="img/spin.svg" />
+        </div>
+        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:100px;overflow:hidden;">
+            <div>
+                <img src="assets/images/team/e7b34-banner53.jpg" />
+            </div>
+            <div>
+                <img src="assets/images/team/41de5-banner50.jpg" />
+            </div>
+            <div>
+                <img src="assets/images/team/3ca1a-banner41.jpg" />
+            </div>
+            <div>
+                <img src="assets/images/team/4de25-banner42.jpg" />
+            </div>
+            <div>
+                <img src="assets/images/team/aa784-banner58.jpg" />
+            </div>
+            <div>
+                <img src="assets/images/team/2abb2-banner60.jpg" />
+            </div>
+            <div>
+                <img src="assets/images/team/f2b5c-banner16.jpg" />
+            </div>
+            <div>
+                <img src="assets/images/team/c9f90-banner29.jpg" />
+            </div>
+            <div>
+                <img src="assets/images/team/b7643-banner9.jpg" />
+            </div>
+            <div>
+                <img src="assets/images/team/d0bfe-banner54.jpg" />
+            </div>
+            <div>
+                <img src="assets/images/team/89b81-banner52.jpg" />
+            </div>
+            <div>
+                <img src="assets/images/team/cad52-banner63.jpg" />
+            </div>
+            <div>
+                <img src="assets/images/team/40d57-banner62.jpg" />
+            </div>
+            <div>
+                <img src="assets/images/team/c5c4e-banner37.jpg" />
+            </div>
+            <div>
+                <img src="assets/images/team/df484-banner40.jpg" />
+            </div>
+            <div>
+                <img src="assets/images/team/c083c-banner35.jpg" />
+            </div>
+            <div>
+                <img src="assets/images/team/d4f0f-banner11.jpg" />
+            </div>
+            <div>
+                <img src="assets/images/team/e26c5-banner13.jpg" />
+            </div>
+            <div>
+                <img src="assets/images/team/df3eb-barandas.jpg" />
+            </div>
+            <div>
+                <img src="assets/images/team/29e08-banner22.jpg" />
+            </div>
+            <div>
+                <img src="assets/images/team/2d91e-banner6.jpg" />
+            </div>
+            <div>
+                <img src="assets/images/team/67d36-banner10.jpg" />
+            </div>
+            <div>
+                <img src="assets/images/team/95115-banner59.jpg" />
+            </div>
+            <div>
+                <img src="assets/images/team/b7643-banner9.jpg" />
+            </div>
+            <div>
+                <img src="assets/images/team/066a3-banner33.jpg" />
+            </div>
+            <div>
+                <img src="assets/images/team/1f479-banner55.jpg" />
+            </div>
+            <div>
+                <img src="assets/images/team/2a6e4-banner56.jpg" />
+            </div>
+            <div>
+                <img src="assets/images/team/d0bfe-banner54.jpg" />
+            </div>
+            <div>
+                <img src="assets/images/team/3a027-banner18.jpg" />
+            </div>
+            <div>
+                <img src="assets/images/team/17af6-banner24.jpg" />
+            </div>
+            <div>
+                <img src="assets/images/team/adad6-banner4.jpg" />
+            </div>
+            <div>
+                <img src="assets/images/team/06590-banner44.jpg" />
+            </div>
+            <div>
+                <img src="assets/images/team/4d4a2-banner48.jpg" />
+            </div>
+            <div>
+                <img src="assets/images/team/4d38e-banner43.jpg" />
+            </div>
+            <div>
+                <img src="assets/images/team/9bac7-banner45.jpg" />
+            </div>
+
+        </div>
+    </div>
+    <!-- #endregion Jssor Slider End -->
+</body>
+</html>
